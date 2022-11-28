@@ -1,0 +1,295 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family:'Courier New', Courier, monospace
+}
+header {
+  position: fixed;
+  top:0%;
+  left: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  opacity: 0.9;
+  width: 1481px;
+  border: 1px solid white;
+  border-bottom: 1px solid rgba(224, 224, 224, 0.329);
+}
+header img{
+  width: 250px;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  padding-left: 650px;
+}
+
+header ul li {
+  margin-left: 20px;
+}
+
+header ul li > *:hover {
+  color: #00b39b !important;
+}
+a {
+  text-decoration: none !important;
+  color: gray !important;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: gray;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.now {
+  color: #00b39b !important;
+}
+.mid {
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+}
+.mid p {
+  color: #00b39b;
+  font-size: 1.9em;
+  margin-top: 40px;
+  font-weight: 200;
+}
+.parag {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.parag > * {
+  width: 35%;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.card {
+  background-color: #00b39b;
+  display: block;
+  width: 30%;
+  height: 400px;
+  color: white;
+  padding: 1.6em;
+  border-radius: 15px;
+}
+.card p {
+  width: 70%;
+  font-size: 15px;
+}
+.cards h1{
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+}
+.card select {
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  color: black;
+  width: 50%;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.blue {
+  background-color: #3d83df;
+}
+
+.black {
+  background-color: #1b2734;
+}
+.brands {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.brands .brand {
+  width: 70%;
+}
+
+.brands .brand > * {
+  width: 200px;
+  fill: rgb(202, 202, 202);
+  margin: 8px 10px;
+}
+
+.brands .brand > *:hover {
+  fill: #00b39b;
+  cursor: pointer;
+}
+.brands p {
+  font-size: 20px;
+  color: #00b39b;
+  width: 200px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main > *:hover {
+  box-shadow: 1px 2px 48px 13px rgba(0, 0, 0, 0.1);
+}
+.statscont{
+  background: linear-gradient(80deg,white,rgb(0,204,177));
+  display: flex;
+  height: 528px;
+  padding: 4%;
+  overflow: hidden;
+}
+.bg1{
+  width: 30%;
+}
+.bg1 h1{
+  color: rgb(0,177,159);
+  font-family: 'Charmonman', cursive;
+  margin-bottom: 7%;
+}
+.bg1 p{
+  opacity: 1.4;
+  font-weight: 400px;
+  line-height: 1.7142857143;
+}
+.intrologo img {
+  height: 231px;
+  width: 100%;
+  margin-top: 5%;
+}
+.stats {
+  text-align: center;
+  width: 60%;
+  margin: 0 4% 0 19%;
+}
+.stats h1 {
+  color: rgb(0,197,155);
+  font-family: 'Charmonman', cursive;
+  font-weight: 300;
+}
+.stats-box {
+  height: 190px;
+  background-color: white;
+  border-radius: 7%;
+  width: 45%;
+  margin-right: 5%;
+}
+.stats-box-colomn-2 {
+  display: flex;
+  margin-top:5%;
+}
+.stats-box-colomn-1 {
+  display: flex;
+}
+.box-3 p {
+  margin-right: 10%;
+  margin-top: 5%;
+}
+.box-4 p {
+  margin-right: 10%;
+  margin-top: 5%;
+}
+.offices{
+  margin-top: 20px;
+}
+.offices-description {
+  text-align: center;
+}
+.offices-description h1 {
+  color: rgb(0,197,155);  
+  font-size: 34px;
+  font-weight:300;
+  margin: 22px;
+}
+.offices-description p {
+  text-align: center;
+  color: black;
+  opacity: .7;
+  margin: 32px;
+}
+.offices-colomn-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.offices-colomn-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+.offices-colomn-3{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+  margin-right: 60%;
+}
+.offices-colomn-1 h1 {
+  font-weight: 400;
+}
+.offices-box h2 {
+  font-weight: 400;
+  line-height: 1.6666666667;
+
+}
+.opening-information {
+  text-align: right;
+  margin-top: -31px;
+}
+.opening-information input {
+  background-color: rgb(61,131,223);
+  color:white;
+  height: 31px;
+  width: 40%;
+  border-radius: 25px;
+}
